@@ -7,3 +7,41 @@
     text-decoration: none;
    
 }
+.max-width{
+    max-width: 1300px;
+    padding: 0px 80px;
+    margin: auto;
+
+}
+.navbar{
+    position: fixed; 
+    width: 100%;
+    background: brown;
+    padding: 25px ;
+} 
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+ .navbar .menu li{
+     color: white;
+     list-style: none;
+     display: inline-block;
+     margin-left: 20px;
+     font-size: 20px;
+     font-weight: 700;
+
+ }
+  .logo{
+      margin-left: -100px;
+      
+  }
+  .logo h1{
+      color: white;
+      font-size: 40px;
+  }
+  .logo span{
+      color: rgb(15, 240, 240);
+  }
