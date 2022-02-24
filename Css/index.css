@@ -13,19 +13,19 @@
     margin: auto;
 
 }
-.navbar{
+.navbar1{
     position: fixed; 
     width: 100%;
     background: brown;
     padding: 25px ;
 } 
-.navbar .max-width{
+.navbar1 .max-width{
     display: flex;
     align-items: center;
     justify-content: space-between;
      
 }
- .navbar .menu li{
+ .navbar1 .menu li{
      color: white;
      list-style: none;
      display: inline-block;
@@ -84,4 +84,11 @@
 	line-height: 28px;
 	font-size: 18px;
 	margin-bottom: 45px;
-} 
+}
+
+.col-sm{
+    border: 2px solid salmon;
+    background: ;
+    justify-content: space-between;
+    margin: 10px;
+}
