@@ -137,13 +137,13 @@
 .fullcard{
     display: flex;
     justify-content: space-around;
-    background-color: #191919;
+    
 
     
 }
 .card{
     background-color: #101010;
-    margin: 40px;
+    
 }
 .card2{
     width: 40%;
@@ -151,10 +151,13 @@
 }
 .card1{
     width: 40%;
-    margin: 10px;
+    
 }
 .skills-h1 h1{
     color: #ffff;
     font-size: 20px;
     font-weight: 700;
+}
+.wholecard{
+    background-color: #191919;
 }
