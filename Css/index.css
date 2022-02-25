@@ -164,6 +164,7 @@
 }
 .wholecontact{
     background-color: #101010;
+    height: 56vh;
 }
 .contact{
     display: flex;
@@ -171,7 +172,7 @@
    
 }
 .contact .card{
-    margin-top: 20px;
+    margin-top: 10px;
     
 }
 .contact .card h1{
@@ -190,6 +191,27 @@
 }
 .contact .col-6 col-sm-4{
     
+}
+footer{
+    background-color: #101F3C;
+}
+.sociallinks li{
+    display: flex;
+    display: inline-block;
+    margin-top: 10px;
+    justify-content: center;
+}
+.sociallinks li a{
+    color: #ffff;
+    height: 30px;
+}
+.sociallinks li a:hover{
+    color: brown;
+
+}
+.copyright p{
+    color: #ffff;
+
 }
 /* From cssbuttons.io by @adamgiebl */
 button {
@@ -244,5 +266,5 @@ button {
      transform: translateY(-0.1em);
     }
    }
-   
+  
    
