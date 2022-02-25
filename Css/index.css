@@ -211,7 +211,35 @@ footer{
 }
 .copyright p{
     color: #ffff;
+    position: relative;
+    bottom: -117px;
 
+}
+.list .card{
+    background-color: #101F3C;
+}
+.list h1{
+    color: #ffff;
+}
+.navdown ul li {
+    list-style: none;
+    text-decoration: none;
+    
+
+}
+.navdown li a:hover{
+    color: brown;
+}
+.navdown{
+    
+
+}
+.navdown span{
+    color: rgb(15, 240, 240);
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
 }
 /* From cssbuttons.io by @adamgiebl */
 button {
@@ -266,5 +294,5 @@ button {
      transform: translateY(-0.1em);
     }
    }
-  
+
    
