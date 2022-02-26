@@ -14,7 +14,7 @@
 
 }
 .navbar1{
-    position: fixed; 
+    position: relative; 
     width: 100%;
     background: brown;
     padding: 25px ;
@@ -45,46 +45,29 @@
   .logo span{
       color: rgb(15, 240, 240);
   }
-  .about{
-	width: 100%;
-	padding: 100px 0px;
-	background-color: #191919;
-}
-.about img{
-	height: auto;
-	width: 430px;
-}
-.about-text{
-	width: 550px;
-}
-.main{
-	width: 1130px;
-	max-width: 95%;
-	margin: 0 auto;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-}
-.about-text h2{
-	color: white;
-	font-size: 75px;
-	text-transform: capitalize;
-	margin-bottom: 20px;
-}
-.about-text h5{
-	color: white;
-	letter-spacing: 2px;
-	font-size: 22px;
-	margin-bottom: 25px;
-	text-transform: capitalize;
-}
-.about-text p{
-	color: #fcfc;
-	letter-spacing: 1px;
-	line-height: 28px;
-	font-size: 18px;
-	margin-bottom: 45px;
-}
+  .wholecard2{
+      
+  }
+  .col-1{
+      background-color: #101010;
+      
+  }
+.col-1 h1,h2{
+      color: #fcfc;
+      font-size: 20px;
+      font-weight: 700;
+      
+  }
+  .col-4{
+      background-color: #101F3C;
+  }
+  .col-4 h1,h2{
+    color: #fcfc;
+    font-size: 20px;
+    font-weight: 700;
+
+  }
+  
 
 .col-sm h1{
     font-size: 25px;
@@ -209,10 +192,22 @@ footer{
     color: brown;
 
 }
-.copyright p{
+.container .col-2{
+    background-color: #101010;
+    color: #fcfc;
+    
+}
+.testin .container .col-6{
+    background-color: #101F3C;
+}
+.job{
+    background-color: #191919;
+}
+.copyright{
     color: #ffff;
-    position: relative;
-    bottom: -117px;
+    display: flex;
+    justify-content: flex-end;
+    
 
 }
 .list .card{
@@ -237,9 +232,9 @@ footer{
 .navdown span{
     color: rgb(15, 240, 240);
 }
-.flex{
+.sociallinks{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 /* From cssbuttons.io by @adamgiebl */
 button {
