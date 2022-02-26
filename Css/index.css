@@ -45,6 +45,26 @@
   .logo span{
       color: rgb(15, 240, 240);
   }
+  .profile img{
+    height: auto;
+	width: 430px;
+    padding: 15px;
+  }
+.landing{
+    padding: 30px;
+    
+}
+.landing h1,h3,h4{
+    color: #fcfc;
+}
+.landing span{
+    color: rgb(15, 240, 240);
+}
+  .namesection{
+      display: flex;
+      justify-content:space-around;
+      background-color: #101010;
+  }
   /* about section styling */
   .mainabout{
       background-color: #191919;
@@ -52,6 +72,7 @@
  
   .aboutme .card{
       background-color: #101010;
+      
     
   }
   .abouttitle{
@@ -331,5 +352,9 @@ button {
      transform: translateY(-0.1em);
     }
    }
-
+   @media (max-width:500px){
+    .namesection{
+        display: block;
+    }
+}
    
