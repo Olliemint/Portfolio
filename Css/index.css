@@ -75,6 +75,22 @@
       
     
   }
+  .why{
+      display: flex;
+      justify-content: center;
+
+  }
+  .hobbies{
+      display: flex;
+      justify-content: center;
+  }
+  .hobbieslist{
+      display: flex;
+      justify-content: center;
+  }
+  .hobbieslist li{
+      font-weight: 700;
+  }
   .abouttitle{
       display: flex;
       justify-content: center;
@@ -218,7 +234,7 @@
    
 }
 .contact .card{
-    margin-top: 10px;
+    
     
 }
 .contact .card h1{
