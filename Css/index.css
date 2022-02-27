@@ -80,6 +80,19 @@ html{
       justify-content:space-around;
       background-color: #101010;
   }
+  .btn{
+      background-color: #C13584;
+      margin-left: 30px;
+      color: #ffff;
+      border-radius: 7px;
+  }
+  .btn:hover{
+      background-color: rgb(15, 240, 240);
+      
+  }
+  .btn a{
+      color: #ffff;
+  }
   /* about section styling */
   .mainabout{
       background-color: #191919;
@@ -209,6 +222,8 @@ html{
     list-style: none;
     font-style: italic;
     font-weight: 700;
+    display: inline-block;
+   
 }
 .projectsh1 h1{
     font-size: 60px;
