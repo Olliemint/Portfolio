@@ -29,6 +29,7 @@ This is My Portfolio Website
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
 * CSS - which was used to style the pages
+* JAVASCRIPT - which was used to design toggle and onclick events of buttons
 
 ## Reference
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
