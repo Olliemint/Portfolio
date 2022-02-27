@@ -7,6 +7,9 @@
     text-decoration: none;
    
 }
+html{
+    scroll-behavior: smooth;
+}
 .max-width{
     max-width: 1300px;
     padding: 0px 80px;
@@ -32,7 +35,11 @@
      margin-left: 20px;
      font-size: 20px;
      font-weight: 700;
+     cursor: pointer;
 
+ }
+ .navbar1 .menu li:hover{
+     color: rgb(15, 240, 240);
  }
   .logo{
       margin-left: -100px;
@@ -41,6 +48,14 @@
   .logo h1{
       color: white;
       font-size: 40px;
+      cursor: pointer;
+  }
+  .logo h1:hover{
+      color: #101F3C;
+
+  }
+  .logo span:hover{
+      color: #fcfc;
   }
   .logo span{
       color: rgb(15, 240, 240);
@@ -247,17 +262,18 @@
     background-color: #101010;
     height: 56vh;
 }
+/* contact styling */
 .contact{
     display: flex;
     justify-content: center;
    
 }
-.contact .card{
-    
-    
-}
+
 .contact .card h1{
     font-size: 20px;
+}
+.contact .card p{
+    font-size: 15px;
 }
 .contacttitle{
     display: flex;
@@ -270,9 +286,23 @@
     font-weight: 700;
     font-size: 45px;
 }
-.contact .col-6 col-sm-4{
-    
+.phone{
+    display: flex;
+    gap: 10px;
 }
+.email{
+    display: flex;
+    gap: 10px;
+
+}
+.address{
+    display: flex;
+    gap: 10px;
+}
+.fa-solid fa-location-dot{
+    color: aqua;
+}
+
 footer{
     background-color: #101F3C;
 }
@@ -314,6 +344,10 @@ footer{
 .list h1{
     color: #ffff;
 }
+.list h1:hover{
+    color: brown;
+ 
+}
 .navdown ul li {
     list-style: none;
     text-decoration: none;
@@ -323,12 +357,12 @@ footer{
 .navdown li a:hover{
     color: brown;
 }
-.navdown{
-    
 
-}
 .navdown span{
     color: rgb(15, 240, 240);
+}
+.navdown span:hover{
+    color: #fcfc;
 }
 .sociallinks{
     display: flex;
