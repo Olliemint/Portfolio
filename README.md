@@ -12,25 +12,33 @@ This is My Portfolio Website
 + [Licence](#licence)
 + [Authors Info](#Authors-Info)
 + [Known Bugs](#Known-Bugs)
+
 ## Description
 <p>This is a Website that provides my professional information and presents a showcase of my projects and skills.</p>
+
 ## Installation
 ### Requirements
 * Either a computer,phone,tablet or an Ipad
 * Access to the Internet
+
 ### Installation Process
 * Clone the github repo
 * Open the clone in an IDE and host it on your browser
 [Go Back to the top](#By Oliver Maiyo)
+
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
 * CSS - which was used to style the pages
+
 ## Reference
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML)
+
 ## Known Bugs
 The scroll toggle does not work for now but with time it will be functional
 [Go Back to the top](#By Oliver Maiyo)
+
+
 ## Licence
 MIT License
 :copyright: 2022 **Oliver Maiyo**
@@ -49,7 +57,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
 [Go Back to the top](#By Oliver Maiyo)
+
+
 ## Authors Info
 
 Twitter - [Oliver Maiyo](https://twitter.com/Furymint)
