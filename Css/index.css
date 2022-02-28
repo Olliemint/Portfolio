@@ -453,6 +453,19 @@ button {
         display: block;
     }
 }
+@media (max-width:500px){
+    #contact{
+        height: 68vh;
+        
+        
+    }
+}
+@media (max-width:500px){
+    #skills{
+        height: 60vh;
+        background-color: #191919;
+    }
+}
    
    
    
