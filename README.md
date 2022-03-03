@@ -1,7 +1,7 @@
 # Portfolio
 ##### By Oliver Maiyo
-This is My Portfolio Website
-### A website for an Insurance Company
+
+### This is My Portfolio Website
 <img width="1440" alt="Landing page" src="https://github.com/Olliemint/Portfolio/blob/main/assets/landing.png">
 
 ## Table of Content
